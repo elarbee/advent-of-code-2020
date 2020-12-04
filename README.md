@@ -18,3 +18,7 @@ Show solution for specific day (1-31):
 
 Run tests:  
 `npm test`
+
+---
+
+[![HitCount](http://hits.dwyl.com/elarbee/advent-of-code-2020.svg)](http://hits.dwyl.com/elarbee/advent-of-code-2020)
