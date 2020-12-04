@@ -34,13 +34,14 @@ const partI = callback => readFile(__dirname, './input.txt', (err, data) => {
 });
 
 
-const partII = (callback) => readFile(__dirname, './input.txt', (err, data) => {
+const partII = callback => readFile(__dirname, './input.txt', (err, data) => {
   const entries = data.split('\n').map(parseDecimal);
   callback(find3Product(entries, SUM));
 });
 
 
 const solve = () => {
+  console.log('Day 1');
   partI(ans => console.log('Part I: ', ans));
   partII(ans => console.log('Part II: ', ans));
 };
@@ -50,4 +51,5 @@ module.exports = {
   find3Product,
   partI,
   partII,
+  solve,
 };
