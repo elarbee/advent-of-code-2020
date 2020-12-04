@@ -11,5 +11,7 @@ module.exports = {
     'ecmaVersion': 12,
   },
   'rules': {
+    'arrow-parens': 'off',
+    'no-unused-vars': 'warn',
   },
 };
