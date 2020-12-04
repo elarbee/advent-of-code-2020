@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha days/**/test.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "solve": "node solveDay.js"
   },
   "author": "Alex Elarbee <alex@elarbee.io.com> (https://elarbee.io)",
   "license": "ISC",
