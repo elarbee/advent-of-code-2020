@@ -15,3 +15,6 @@ Install packages
 
 Show solution for specific day (1-31):  
 `npm run solve {dayNumber}`
+
+Run tests:  
+`npm test`
