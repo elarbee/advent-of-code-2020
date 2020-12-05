@@ -7,4 +7,10 @@ const readFile = (dir, filename, callback) => {
 
 const parseDecimal = (s) => parseInt(s, 10);
 
-module.exports = {readFile, parseDecimal};
+const solveDay = (n, partI, partII) => () => {
+  console.log('Day 2')
+  partI(ans => console.log('Part I:', ans));
+  partII(ans => console.log('Part II:', ans));
+}
+
+module.exports = {readFile, parseDecimal, solveDay};
